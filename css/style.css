@@ -1,0 +1,352 @@
+body {
+    margin: 0;
+    padding: 0;  
+    background: linear-gradient( #000a23, #353A5F, #02253d);/* #1C2E4C e #07142B*/
+    
+}
+
+
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+
+/*header aumentar*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-image: url("../img/estrela.jpg");
+    padding: 60px;
+
+}
+
+
+/*nav a direita*/
+
+nav{
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: left;
+}
+
+nav > a{
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 32px;
+    font-family: Yellowtail, serif;
+}
+
+nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+    width: 100%;
+}
+
+nav ul li :last-child {
+    margin-right: 0;
+    
+}
+
+nav ul li a{
+
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+nav ul li a:hover{
+    color: rgb(170, 176, 172);
+    border-bottom: 1px solid  rgb(147, 182, 210);
+
+}
+
+#menu {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    width: 8em;
+    margin-top: -2.5em;
+}
+
+hr{
+    margin-top: 10%;
+}
+
+h1{
+    font-size: 20px;
+}
+
+
+.principal{
+    border: 1px solid #000000;
+    padding: 50px;
+    margin: 10px;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    font-size: 120%;
+    border-radius: 10px;
+    background-color:  #778DA9;
+    box-shadow: 0 0 20px #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+.sobre {
+    display: flex;
+    margin: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+h1{
+    color: #ffffff;
+    font-size: 70px;
+    text-align: center;
+    
+}
+
+.projetos{
+    border: 1px solid #000000;
+    padding: 60px;
+    margin: 20px;
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    color: #000000;
+    background-color: #778DA9;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #ffffff;
+    justify-content: space-evenly;
+    gap: 2vw;
+    /* padding: 0 2vw;*/
+}
+
+
+.projeto{
+    display: flex;
+    flex-direction: column;
+    width: 440px;
+    height: 340px;
+    margin-top: 3%;
+    flex-grow: 1;
+    transition: transform .5s linear;
+    color: #000000;
+}
+
+
+.gallery-items {
+    width: 440px;
+    height: 340px;
+    border: 10px solid #ffffff;
+    box-shadow: 5px 5px 5px #0b0b0b;
+    flex-grow: 1;
+    transition: transform .5s linear;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.gallery-items img {
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery-items:hover{
+    transform: scale(1.1);
+}
+
+.button{
+    display: flex;
+    margin-top: 3%;
+    height: 35px;
+    width: 90px;
+    border-radius: 7px;
+    background-color: #1C2E4C;
+    color: #ffffff;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.button:hover{
+    background-color: #052e75;
+    color: #0b0b0b;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    text-align: center;
+    margin-top: 3%;
+}
+
+h2{
+    color: #ffffff;
+    font-size: 70px;
+    text-align: center;
+}
+
+.habilidades{
+    display: flex;  
+    margin: 5px;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+#HTML5{
+    border-radius: 20%;
+    height: 240px;
+    width: 240px; 
+}
+
+#java{
+    border-radius: 20%;
+}
+
+#CSS3{
+    border-radius: 20%;
+    height: 240px;
+    width: 240px;
+}
+
+#GIT{
+    display: flex;
+    border-radius: 20%;
+    justify-content: left;
+}
+
+#FIGMA{
+    border-radius: 20%;
+}
+
+/*final do negocio de habilidades*/
+
+.linha{
+    display: flex;
+    background-color: #446879;
+    text-align: center;
+    color: #000000;
+    height: 50px;
+    margin-top: 7%;
+    justify-content: center;
+    align-items: center;
+    font-size: 150%;
+}
+
+.roda-pe {
+    display: flex;
+    margin: auto;
+    padding: 80px;
+    height: 190px;
+    width: auto;
+    background-color:#26425A;
+    color: black;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#insta{
+    margin-top: 3%;
+    margin: auto;
+    align-items: center;
+    width: 50px; /*largura da img*/
+    height: 50px; /*tamanho da img*/
+    text-align: center;
+    font-size: medium;
+    margin-right: 3%;
+}
+
+#whats{
+    margin: auto;
+    align-items: center;
+    width: 50px; /*largura da img*/
+    height: 50px; /*tamanho da img*/
+    text-align: center;
+    font-size: medium;
+    margin-right: 3%;
+}
+
+
+
+#linkedin{
+    margin: auto;
+    align-items: center;
+    width: 50px; /*largura da img*/
+    height: 50px; /*tamanho da img*/
+    text-align: center;
+    font-size: medium;
+    margin-right: 3%;
+}
+
+
+#facebook{
+    margin: auto;
+    align-items: center;
+    width: 50px; /*largura da img*/
+    height: 50px; /*tamanho da img*/
+    text-align: center;
+    font-size: medium;
+    margin-right: 3%;
+}
+
+#github{
+    margin: auto;
+    align-items: center;
+    width: 50px; /*largura da img*/
+    height: 50px; /*tamanho da img*/
+    text-align: center;
+    font-size: medium;
+    margin-right: 3%;
+
+}
+
+hr {
+    display: flex;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden
+}
+
+/*    margin-top: 1.5em; 
+display: flex;
+margin-top: 1.5em;
+margin-bottom: 0.5em;
+margin-left: auto;
+margin-right: auto;
+border-style: inset;
+border-width: 1px;*/
+
+#final{
+    margin-top: 3%;
+}
+
